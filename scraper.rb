@@ -1,25 +1,38 @@
-# This is a template for a Ruby scraper on morph.io (https://morph.io)
-# including some code snippets below that you should find helpful
+require 'scraperwiki'
+require 'rubygems'
+require 'mechanize'
 
-# require 'scraperwiki'
-# require 'mechanize'
-#
-# agent = Mechanize.new
-#
-# # Read in a page
-# page = agent.get("http://foo.com")
-#
-# # Find somehing on the page using css selectors
-# p page.at('div.content')
-#
-# # Write out to the sqlite database using scraperwiki library
-# ScraperWiki.save_sqlite(["name"], {"name" => "susan", "occupation" => "software developer"})
-#
-# # An arbitrary query against the database
-# ScraperWiki.select("* from data where 'name'='peter'")
+comment_url = 'mailto:council@burwood.nsw.gov.au?subject='
+starting_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiry/currentlyAdvertised.do?function_id=588&orderBy=suburb&nodeNum=224'
+search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetails.do?index='
 
-# You don't have to do things with the Mechanize or ScraperWiki libraries.
-# You can use whatever gems you want: https://morph.io/documentation/ruby
-# All that matters is that your final data is written to an SQLite database
-# called "data.sqlite" in the current working directory which has at least a table
-# called "data".
+def scrape_table(agent, scrape_url, comment_url)
+  puts "Scraping " + scrape_url
+  doc = agent.get(scrape_url)
+  rows = doc.search('.inputField').map { |e| e.inner_text.strip }
+  reference = rows[2]
+  record = {
+    'info_url' => "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
+    'comment_url' => comment_url + CGI::escape("Development Application Enquiry: " + reference),
+    'council_reference' => reference,
+    'date_received' => Date.strptime(rows[3], '%d/%m/%Y').to_s,
+    'address' => rows[0],
+    'description' => rows[1],
+    'date_scraped' => Date.today.to_s
+  }
+  if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true) 
+    ScraperWiki.save_sqlite(['council_reference'], record)
+    puts "Saving " + reference
+  else
+    puts "Skipping already saved record " + reference
+  end
+end
+
+agent = Mechanize.new
+
+# Grab the starting page and go into each link to get a more reliable data format.
+doc = agent.get(starting_url)
+(0..doc.search('.non_table_headers').size - 1).each do |i|
+  scrape_url = search_result_url + i.to_s
+  scrape_table(agent, scrape_url, comment_url)
+end
