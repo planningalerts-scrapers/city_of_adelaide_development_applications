@@ -9,13 +9,16 @@ search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetai
 def scrape_table(agent, scrape_url, comment_url)
   puts "Scraping " + scrape_url
   doc = agent.get(scrape_url)
-  rows = doc.search('.inputField').map { |e| e.inner_text.strip }
+  rows = doc.search('.rowDataOnly > .inputField:nth-child(2)').map { |e| e.inner_text.strip }
   reference = rows[2]
+  date_received = Date.strptime(rows[3], '%d/%m/%Y').to_s rescue nil
+  puts "Invalid date: #{rows[3].inspect}" unless date_received
+
   record = {
     'info_url' => "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
     'comment_url' => comment_url + CGI::escape("Development Application Enquiry: " + reference),
     'council_reference' => reference,
-    'date_received' => Date.strptime(rows[3], '%d/%m/%Y').to_s,
+    'date_received' => date_received,
     'address' => rows[0],
     'description' => rows[1],
     'date_scraped' => Date.today.to_s
