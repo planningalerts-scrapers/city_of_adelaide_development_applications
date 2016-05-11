@@ -2,25 +2,23 @@ require 'scraperwiki'
 require 'rubygems'
 require 'mechanize'
 
-comment_url = 'mailto:council@burwood.nsw.gov.au?subject='
-starting_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiry/currentlyAdvertised.do?function_id=588&orderBy=suburb&nodeNum=224'
-search_result_url = 'https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryDetails.do?index='
 
-def scrape_table(agent, scrape_url, comment_url)
+def scrape_table(agent, scrape_url)
   puts "Scraping " + scrape_url
   doc = agent.get(scrape_url)
-  rows = doc.search('.rowDataOnly > .inputField:nth-child(2)').map { |e| e.inner_text.strip }
-  reference = rows[2]
-  date_received = Date.strptime(rows[3], '%d/%m/%Y').to_s rescue nil
-  puts "Invalid date: #{rows[3].inspect}" unless date_received
+  texts = doc.search('.text').map { |e| e.inner_text.strip }
+  bldtexts = doc.search('.bldtxt').map { |e| e.inner_text.strip }
+  reference = texts[0]
+  on_notice_to = Date.strptime(bldtexts.last, '%e %b %Y').to_s rescue nil
+  puts "Invalid date: #{bldtexts.last.inspect}" unless on_notice_to
 
   record = {
-    'info_url' => "https://ecouncil.burwood.nsw.gov.au/eservice/daEnquiryInit.do?doc_typ=10&nodeNum=219",
-    'comment_url' => comment_url + CGI::escape("Development Application Enquiry: " + reference),
-    'council_reference' => reference,
-    'date_received' => date_received,
-    'address' => rows[0],
-    'description' => rows[1],
+    'info_url' => 'http://dmzweb.adelaidecitycouncil.com/devapp/' + scrape_url,
+    'comment_url' => 'mailto:d.planner@adelaidecitycouncil.com?subject=' + CGI::escape("Development Application Enquiry: " + reference),
+    'council_reference' =>  reference,
+    'on_notice_to' => on_notice_to,
+    'address' => texts[1],
+    'description' => texts[2],
     'date_scraped' => Date.today.to_s
   }
   if (ScraperWiki.select("* from data where `council_reference`='#{record['council_reference']}'").empty? rescue true) 
@@ -34,8 +32,9 @@ end
 agent = Mechanize.new
 
 # Grab the starting page and go into each link to get a more reliable data format.
-doc = agent.get(starting_url)
-(0..doc.search('.non_table_headers').size - 1).each do |i|
-  scrape_url = search_result_url + i.to_s
-  scrape_table(agent, scrape_url, comment_url)
+doc = agent.get('http://dmzweb.adelaidecitycouncil.com/devapp/devapplist.asp')
+doc.search('a').each do |a|
+  if a["href"] && a["href"] != "#top"
+    scrape_table(agent,  a["href"])
+  end
 end
