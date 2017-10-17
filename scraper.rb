@@ -88,7 +88,7 @@ daTypes.each do |type|
       error += 1
     end
 
-    # increase i value and scan the next DA
+    # increase maxApplication value and scan the next DA
     maxApplication += 1
     if error == 10
       cont = false
