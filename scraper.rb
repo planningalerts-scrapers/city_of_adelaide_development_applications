@@ -28,23 +28,28 @@ page = agent.get cookie_url
 page = agent.get search_url
 
 # local DB lookup if DB exist and find out what is the maxDA number
-i = 1;
-sql = "select * from data where `council_reference` like '%/#{ENV['MORPH_PERIOD']}'"
-results = ScraperWiki.sqliteexecute(sql) rescue false
-if ( results )
-  results.each do |result|
-    maxDA = result['council_reference'].gsub!('DA/', '').gsub!("/#{ENV['MORPH_PERIOD']}", '')
-    if maxDA.to_i > i
-      i = maxDA.to_i
+def dbLookup(type = 'DA')
+  i = 1;
+  sql = "select * from data where `council_reference` like '#{type}%/#{ENV['MORPH_PERIOD']}'"
+  results = ScraperWiki.sqliteexecute(sql) rescue false
+  if ( results )
+    results.each do |result|
+      maxApplication = result['council_reference'].gsub!(type + '/', '').gsub!("/#{ENV['MORPH_PERIOD']}", '')
+      if maxApplication.to_i > i
+        i = maxApplication.to_i
+      end
     end
   end
+  maxApplication = i
 end
 
+type = 'DA'
+maxApplication = dbLookup(type)
 error = 0
 cont = true
 while cont do
   form = page.form
-  form.field_with(:name=>'ctl00$MainBodyContent$mGeneralEnquirySearchControl$mTabControl$ctl04$mFormattedNumberTextBox').value = 'DA/' + i.to_s + '/' + ENV['MORPH_PERIOD'].to_s
+  form.field_with(:name=>'ctl00$MainBodyContent$mGeneralEnquirySearchControl$mTabControl$ctl04$mFormattedNumberTextBox').value = type + '/' + maxApplication.to_s + '/' + ENV['MORPH_PERIOD'].to_s
   button = form.button_with(:value => "Search")
   list = form.click_button(button)
 
@@ -81,7 +86,7 @@ while cont do
   end
 
   # increase i value and scan the next DA
-  i += 1
+  maxApplication += 1
   if error == 10
     cont = false
   end
