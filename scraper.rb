@@ -62,7 +62,7 @@ daTypes.each do |type|
       tr     = table.search("tr.ContentPanel")
 
       # fine tuning 'address' field, remove 'building name'
-      address = tr.search('span')[2].inner_text.strip
+      address = tr.search('span')[1].inner_text.strip
       if address.split(',').size >= 3
         address = address.split(',', 2)[1].strip
       end
@@ -70,7 +70,7 @@ daTypes.each do |type|
       record = {
         'council_reference' => tr.search('a').inner_text,
         'address'           => address,
-        'description'       => tr.search('span')[1].inner_text.gsub("\n", '. ').squeeze(' '),
+        'description'       => tr.search('span')[2].inner_text.gsub("\n", '. ').squeeze(' '),
         'info_url'          => base_url + tr.search('a')[0]['href'],
         'comment_url'       => comment_url,
         'date_scraped'      => Date.today.to_s,
