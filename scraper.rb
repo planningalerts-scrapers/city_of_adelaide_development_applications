@@ -18,7 +18,6 @@ puts "Getting data in year '" + ENV['MORPH_PERIOD'].to_s + "', changable via MOR
 cookie_url = "https://epathway.adelaidecitycouncil.com/ePathway/ePathwayProd/Web/default.aspx"
 search_url = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/externalrequestbroker.aspx?Module=EGELAP&Class=DEVT&Type=DEVT"
 base_url   = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/"
-comment_url = "mailto:city@cityofadelaide.com.au"
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
 agent = Mechanize.new
@@ -72,7 +71,6 @@ daTypes.each do |type|
         'address'           => address,
         'description'       => tr.search('span')[2].inner_text.gsub("\n", '. ').squeeze(' '),
         'info_url'          => base_url + tr.search('a')[0]['href'],
-        'comment_url'       => comment_url,
         'date_scraped'      => Date.today.to_s,
         'date_received'     => Date.parse(tr.search('span')[0].inner_text).to_s,
       }
