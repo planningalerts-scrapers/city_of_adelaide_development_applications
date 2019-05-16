@@ -21,7 +21,6 @@ base_url   = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
 agent = Mechanize.new
-agent.user_agent_alias = 'Mac Safari'
 
 # select Planning Application
 page = agent.get cookie_url
