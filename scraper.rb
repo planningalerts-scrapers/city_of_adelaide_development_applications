@@ -27,26 +27,10 @@ agent.user_agent_alias = 'Mac Safari'
 page = agent.get cookie_url
 page = agent.get search_url
 
-# local DB lookup if DB exist and find out what is the maxDA number
-def dbLookup(type = 'DA')
-  i = 1;
-  sql = "select * from data where `council_reference` like '#{type}%/#{ENV['MORPH_PERIOD']}'"
-  results = ScraperWiki.sqliteexecute(sql) rescue false
-  if ( results )
-    results.each do |result|
-      maxApplication = result['council_reference'].gsub!(type + '/', '').gsub!("/#{ENV['MORPH_PERIOD']}", '')
-      if maxApplication.to_i > i
-        i = maxApplication.to_i
-      end
-    end
-  end
-  maxApplication = i
-end
-
 daTypes.each do |type|
   puts "Going to scrape '#{type}' type of applications"
 
-  maxApplication = dbLookup(type)
+  maxApplication = 1
   error = 0
   cont = true
   while cont do
