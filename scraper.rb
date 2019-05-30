@@ -10,7 +10,6 @@ scraper = EpathwayScraper::Scraper.new(
 
 cookie_url = "https://epathway.adelaidecitycouncil.com/ePathway/ePathwayProd/Web/default.aspx"
 search_url = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/externalrequestbroker.aspx?Module=EGELAP&Class=DEVT&Type=DEVT"
-base_url   = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/"
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
 agent = scraper.agent
