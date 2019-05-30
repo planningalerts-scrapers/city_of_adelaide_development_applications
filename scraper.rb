@@ -1,5 +1,4 @@
-require 'scraperwiki'
-require 'mechanize'
+require "epathway_scraper"
 
 ENV['MORPH_PERIOD'] ||= DateTime.now.year.to_s
 
