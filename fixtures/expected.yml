@@ -626,7 +626,7 @@
   date_scraped: '2019-05-15'
   date_received: '2019-03-20'
 - council_reference: DA/191/2019
-  address: 77-91 Rundle Mall, ADELAIDE  SA  5000
+  address: Ground 77-91 Rundle Mall, ADELAIDE  SA  5000
   description: External alterations and signage
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -727,7 +727,7 @@
 - council_reference: DA/205/2019
   address: 48-50 Hindley Street, ADELAIDE  SA  5000
   description: Installation of retractable awning attached to eastern façade extending
-    over Bank St footpath
+    over Bank Street footpath
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-03-24'
@@ -988,7 +988,7 @@
   date_scraped: '2019-05-15'
   date_received: '2019-04-05'
 - council_reference: DA/243/2019
-  address: Ground 150 Franklin Street, ADELAIDE  SA  5000
+  address: 32 Mellor Street, ADELAIDE  SA  5000
   description: Change of use to cafe
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -1013,7 +1013,7 @@
   date_received: '2019-04-03'
 - council_reference: DA/247/2019
   address: 133 Barton Terrace W, NORTH ADELAIDE  SA  5006
-  description: Demolish existng rear addition and re-build
+  description: Demolish existing rear addition and re-build
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-04-08'
@@ -1032,8 +1032,8 @@
   date_received: '2019-04-09'
 - council_reference: DA/25/2019
   address: 19 Marion Street, ADELAIDE  SA  5000
-  description: Demolish rear addition and carport and construct new two (2) storey
-    extension and carport
+  description: Demolish rear addition and carport and construct two (2) storey extension
+    and carport
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-15'
@@ -1088,7 +1088,7 @@
   date_received: '2019-04-11'
 - council_reference: DA/258/2019
   address: 128 Grote Street, ADELAIDE  SA  5000
-  description: Change of use to take away restaurant at ground level. and short-term
+  description: Change of use to take away restaurant at ground level and short-term
     accommodation at upper levels
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -1108,7 +1108,7 @@
   date_received: '2019-01-16'
 - council_reference: DA/260/2019
   address: Level 9  90 King William Street, ADELAIDE  SA  5000
-  description: Chnage of use to personal services establishment
+  description: Change of use to personal services establishment
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-04-11'
@@ -1232,7 +1232,7 @@
   date_received: '2019-04-25'
 - council_reference: DA/278/2019
   address: 2 Oliver Court, ADELAIDE  SA  5000
-  description: Install sliding door to front of balcony.
+  description: Install additional sliding door to courtyard
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-04-25'
@@ -1296,7 +1296,8 @@
   date_received: '2019-04-26'
 - council_reference: DA/287/2019
   address: 132-140 Ward Street, NORTH ADELAIDE  SA  5006
-  description: Telecommunications facility (mobile telephone base station)
+  description: Installation of a telecommunications facility (mobile telephone base
+    station)
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-04-30'
@@ -1397,7 +1398,7 @@
   date_received: '2019-01-16'
 - council_reference: DA/300/2019
   address: 235 Grenfell Street, ADELAIDE  SA  5000
-  description: Internal alternations to existing kitchen and new ganming area on ground
+  description: Internal alternations to existing kitchen and new gaming area on ground
     floor
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -1435,7 +1436,7 @@
   date_received: '2019-05-02'
 - council_reference: DA/306/2019
   address: 12 Rundle Mall, ADELAIDE  SA  5000
-  description: Facade changes and signage
+  description: Facade changes, new exhaust canopy and signage
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-03'
@@ -1453,8 +1454,7 @@
   date_received: '2019-05-03'
 - council_reference: DA/309/2019
   address: War Memorial Drive, NORTH ADELAIDE  SA  5006
-  description: The removal of seven regulated trees and re-location one regulated
-    tree
+  description: Removal of seven regulated trees and relocation of one regulated tree
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-06'
@@ -1473,7 +1473,7 @@
   date_received: '2019-05-07'
 - council_reference: DA/311/2019
   address: 181 Sturt Street, ADELAIDE  SA  5000
-  description: Alterations to existing dwelling including new verdandah roof to existing
+  description: Alterations to existing dwelling including new verandah roof to existing
     roof terrace and new suspended pool
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -1520,14 +1520,14 @@
 - council_reference: DA/318/2019
   address: 23-31 Playhouse Lane, ADELAIDE  SA  5000
   description: Temporary fence at the rear of the venue for a smoking and toilet area
-    (Friday 24th May 2019- Sunday 26th May 2019).
+    (Friday 24 May 2019- Monday 27 May 2019).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-08'
 - council_reference: DA/319/2019
   address: 316-320 Pulteney Street, ADELAIDE  SA  5000
-  description: Remove existing roofed structure over Arnou Dining and replace with
-    new roofed structure, iinternal refurbishments and new air conditioning
+  description: Replace roof structure over 'Arnou Dining,' internal refurbishment
+    and new air conditioning unit on roof
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-08'
@@ -1539,7 +1539,7 @@
   date_received: '2019-01-17'
 - council_reference: DA/320/2019
   address: 23-31 Angas Street, ADELAIDE  SA  5000
-  description: Change of use from vacant land to public carpark
+  description: Change of use from vacant land to temporary ancillary carpark
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-08'
@@ -1555,12 +1555,24 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-09'
+- council_reference: DA/323/2019
+  address: 127-130 North Terrace, ADELAIDE  SA  5000
+  description: Temporary hoarding on footpath during construction works
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-09'
 - council_reference: DA/324/2019
   address: 1-15 King William Street, ADELAIDE  SA  5000
   description: Office Alterations - Tenancy base buiding works (Ground floor).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-08'
+- council_reference: DA/325/2019
+  address: North Terrace, ADELAIDE  SA  5000
+  description: Trailer mounted LED sign - 10 August 2019 - 19 August 2019
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-09'
 - council_reference: DA/326/2019
   address: Level 5  26 Flinders Street, ADELAIDE  SA  5000
   description: Internal office fitout (Level 5).
@@ -1573,6 +1585,12 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-09'
+- council_reference: DA/328/2019
+  address: 17-25 Gilbert Place, ADELAIDE  SA  5000
+  description: Install external gas pipe
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-13'
 - council_reference: DA/329/2019
   address: 119-129 Rundle Mall, ADELAIDE  SA  5000
   description: Interior alterations & associated interior demolition.
@@ -1585,6 +1603,18 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-17'
+- council_reference: DA/330/2019
+  address: 114 Hindley Street, ADELAIDE  SA  5000
+  description: Change the use to takeaway food shop with internal and external alterations
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-13'
+- council_reference: DA/331/2019
+  address: Ground   Shop 4  160 Grote Street, ADELAIDE  SA  5000
+  description: Change of use to patisserie shop with internal fitout
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
 - council_reference: DA/332/2019
   address: 72 Hindley Street, ADELAIDE  SA  5000
   description: Commercial internal fit-out (Love Stephanie Dessert Bar).
@@ -1597,12 +1627,43 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-13'
+- council_reference: DA/334/2019
+  address: 31-35 Palmer Place, NORTH ADELAIDE  SA  5006
+  description: Re-roofing and various conservation works
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
+- council_reference: DA/335/2019
+  address: 17 Hamilton Place, ADELAIDE  SA  5000
+  description: Conservation works
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
 - council_reference: DA/336/2019
   address: Level 1  12 Pirie Street, ADELAIDE  SA  5000
-  description: Internal Alteration (change of use)
+  description: Internal alterations and change of use of part of level 1 to educational
+    establishment
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-09'
+- council_reference: DA/337/2019
+  address: 28-47 Brougham Place, NORTH ADELAIDE  SA  5006
+  description: To Operate a 600 person social event on the 1st of June
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
+- council_reference: DA/338/2019
+  address: Morphett Street, ADELAIDE  SA  5000
+  description: Erect temporary banner on Morphett Street Bridge in for UniSA exhibition
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/339/2019
+  address: 141-159 Rundle Mall, ADELAIDE  SA  5000
+  description: Internal supermarket fit-out (Romeo's Citi Centre).
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-13'
 - council_reference: DA/34/2019
   address: 15-27 Pulteney Street, ADELAIDE  SA  5000
   description: Demolish cooling tower, undertake roof terrace waterproofing, upgrade
@@ -1611,30 +1672,297 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-17'
+- council_reference: DA/340/2019
+  address: 316-320 Pulteney Street, ADELAIDE  SA  5000
+  description: Relocation of existing gaming room
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/341/2019
+  address: Victoria Square, ADELAIDE  SA  5000
+  description: Installation of temporary structures including temporary ice rink,
+    bar, food stalls, marquees, carnival rides, jumping castles and ice slide for
+    a winter festival
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/342/2019
+  address: 224A Angas Street, ADELAIDE  SA  5000
+  description: Install driveway and pedestrian access gates
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/343/2019
+  address: 81-100 Strangways Terrace, NORTH ADELAIDE  SA  5006
+  description: Construct a mechanical services plant platform/enclosure at level 2
+    slab
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/344/2019
+  address: 352 South Terrace, ADELAIDE  SA  5000
+  description: Install non-illuminated wall sign
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-16'
+- council_reference: DA/345/2019
+  address: 21-24 North Terrace, ADELAIDE  SA  5000
+  description: Alterations and additions including three additional levels to North
+    Terrace and five additional levels to Gray Street
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-16'
+- council_reference: DA/346/2019
+  address: Ground 176 Franklin Street, ADELAIDE  SA  5000
+  description: Shop fit-out (T1 - White Box - West Franklin).
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-14'
+- council_reference: DA/347/2019
+  address: Ground 14/160 Melbourne Street, NORTH ADELAIDE  SA  5006
+  description: Install signage above and below canopy
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-16'
+- council_reference: DA/348/2019
+  address: Ground 251 Morphett Street, ADELAIDE  SA  5000
+  description: Internal alterations to puppy area.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-16'
+- council_reference: DA/349/2019
+  address: 250 Pulteney Street, ADELAIDE  SA  5000
+  description: to add blinds to the outdoor dining area
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-17'
 - council_reference: DA/35/2019
   address: 125 Gilles Street, ADELAIDE  SA  5000
   description: Change the use of the upper level from residence to restaurant
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-18'
+- council_reference: DA/350/2019
+  address: 64 Hindley Street, ADELAIDE  SA  5000
+  description: 'Undertake alterations to existing tenancy for bubble tea shop including
+    signage. '
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-15'
+- council_reference: DA/351/2019
+  address: 39-47 Franklin Street, ADELAIDE  SA  5000
+  description: Establishment of cafe land use including internal fit-out
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-17'
+- council_reference: DA/352/2019
+  address: 20-28 Little Gilbert Street, ADELAIDE  SA  5000
+  description: Install air-conditioning unit
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-17'
+- council_reference: DA/353/2019
+  address: 22A Moger Lane, ADELAIDE  SA  5000
+  description: 4 number new town houses
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-19'
+- council_reference: DA/354/2019
+  address: 79 McLaren Street, ADELAIDE  SA  5000
+  description: Change of use from office to dwelling, internal alterations, construction
+    of new rear and new front door
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/355/2019
+  address: 89 O'Connell Street, NORTH ADELAIDE  SA  5006
+  description: Change of use to office with signage
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/356/2019
+  address: 62-100 O'Connell Street, NORTH ADELAIDE  SA  5006
+  description: Installation of 4 temporary displays on footpath in various locations
+    to promote the Umbrella Winter Music program.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/357/2019
+  address: 162-178 Melbourne Street, NORTH ADELAIDE  SA  5006
+  description: Installation of temporary display on footpath to promote the Umbrella
+    Winter Music program
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/358/2019
+  address: Level 14  115 King William Street, ADELAIDE  SA  5000
+  description: Tenancy fitout (Fusion 5).
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-17'
+- council_reference: DA/359/2019
+  address: Ground 83 Melbourne Street, NORTH ADELAIDE  SA  5006
+  description: Installation of temporary display on the footpath to promote North
+    Adelaide Winter Umbrella Festival program
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
 - council_reference: DA/36/2019
   address: 10 Pulteney Street, ADELAIDE  SA  5000
   description: Office alterations (Level 11).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-15'
+- council_reference: DA/360/2019
+  address: 168-180 O'Connell Street, NORTH ADELAIDE  SA  5006
+  description: Installation of temporary display on the footpath to promote North
+    Adelaide Winter Umbrella Festival program
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/361/2019
+  address: 447-451 Morphett Street, ADELAIDE  SA  5000
+  description: Art studio for educational use
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/362/2019
+  address: 2 McLaren Street, ADELAIDE  SA  5000
+  description: Construct new mezzanine extension to second storey of existing residence
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: DA/363/2019
+  address: 5 Bower Street, NORTH ADELAIDE  SA  5006
+  description: Undertake alteration to existing verandah in rear yard
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-21'
+- council_reference: DA/364/2019
+  address: 68 Childers Street, NORTH ADELAIDE  SA  5006
+  description: Construct new verandah and undertake internal alterations to existing
+    dwelling
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-21'
+- council_reference: DA/365/2019
+  address: Level 1  120 Gouger Street, ADELAIDE  SA  5000
+  description: Repairs to balustrade to level 1 balcony
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/366/2019
+  address: 38 Ward Street, NORTH ADELAIDE  SA  5006
+  description: Install one attached pergola and one freestanding pergola
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/367/2019
+  address: Level 1  Room 125-127  38 Gawler Place, ADELAIDE  SA  5000
+  description: Change the use from shop to educational establishment
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/368/2019
+  address: 82-88 King William Street, ADELAIDE  SA  5000
+  description: Install signage on facade
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/369/2019
+  address: 97-99 Pirie Street, ADELAIDE  SA  5000
+  description: Change of use to education facility
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
 - council_reference: DA/37/2019
   address: 44-60 Rundle Mall, ADELAIDE  SA  5000
   description: Shopping centre tenancy fitout (Tenancy 1.3 - Ban Ban).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-18'
+- council_reference: DA/370/2019
+  address: 94-106 King William Street, ADELAIDE  SA  5000
+  description: Facade upgrade at ground floor
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/371/2019
+  address: 262-266 Pirie Street, ADELAIDE  SA  5000
+  description: Install new illuminated sign to front of building
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
+- council_reference: DA/372/2019
+  address: Ground 14/160 Melbourne Street, NORTH ADELAIDE  SA  5006
+  description: Pharmacy fitout (Terry White Chemmart).
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-21'
+- council_reference: DA/373/2019
+  address: 95A-97A Wright Street, ADELAIDE  SA  5000
+  description: Change of use to personal services establishment (beauty salon)
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
+- council_reference: DA/375/2019
+  address: 138-140 Rundle Mall, ADELAIDE  SA  5000
+  description: Non-Structural Building Refurbishment
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
+- council_reference: DA/376/2019
+  address: BF-1F 314 King William Street, ADELAIDE  SA  5000
+  description: Display Showroom Refurbishment.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-22'
+- council_reference: DA/377/2019
+  address: Level 1  279A Hindley Street, ADELAIDE  SA  5000
+  description: applying to display some banners on the property outside as described
+    in the attached documents
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
+- council_reference: DA/378/2019
+  address: 205-209 Pulteney Street, ADELAIDE  SA  5000
+  description: Installation of vinyl banner to northern external wall of building
+    (Flinders Street facade)
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-27'
+- council_reference: DA/379/2019
+  address: 30 Centenary Street, NORTH ADELAIDE  SA  5006
+  description: Installation of an air conditioning unit to the roof of existing dwelling
+    (retrospective)
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
 - council_reference: DA/38/2019
   address: Level 6  63 Pirie Street, ADELAIDE  SA  5000
   description: Internal office fit-out (Levels 5 & 6 - Bentleys).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-21'
+- council_reference: DA/382/2019
+  address: 157 Grote Street, ADELAIDE  SA  5000
+  description: Install a LED sign board above front door. The size of the sigh board
+    is 2800*800mm.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-29'
+- council_reference: DA/383/2019
+  address: 113 Kingston Terrace, NORTH ADELAIDE  SA  5006
+  description: New single detached dwelling
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-29'
+- council_reference: DA/384/2019
+  address: Level 2  3/104 Frome Street, ADELAIDE  SA  5000
+  description: Internal alterations - Level 2.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-28'
 - council_reference: DA/39/2019
   address: 43-45 Rundle Mall, ADELAIDE  SA  5000
   description: Alterations to shopfront and installation of additional signage
@@ -2244,11 +2572,30 @@
   date_received: '2019-05-02'
 - council_reference: S10/22/2019
   address: Mann Terrace, NORTH ADELAIDE  SA  5006
-  description: Widening of existing footpath including upgrade of . shared pedestrian/bicycle
-    path within a State Heritage . area.
+  description: Widening of existing footpath including upgrade of shared pedestrian/bicycle
+    path adjacent State Heritage place
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-07'
+- council_reference: S10/23/2019
+  address: Gaol Road, ADELAIDE  SA  5000
+  description: Conservation Works
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-23'
+- council_reference: S10/24/2019
+  address: 23-31 Angas Street, ADELAIDE  SA  5000
+  description: Demolition of existing structures in association with DA 020/A102/18
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
+- council_reference: S10/25/2019
+  address: 278 South Terrace, ADELAIDE  SA  5000
+  description: Demolition of existing structures and construction of eight (8) storey
+    residential flat building with ancillary car-park, landscaping and bike storage
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
 - council_reference: S10/3/2019
   address: Botanic Road, ADELAIDE  SA  5000
   description: Painting and window repair work to Museum of Economic Botany
@@ -2328,14 +2675,28 @@
 - council_reference: S49/5/2019
   address: 1-9 Railway Ramp, ADELAIDE  SA  5000
   description: Ceiling works to existing fire egress corridor in Adelaide Railway
-    . Station
+    Station
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-07'
 - council_reference: S49/6/2019
   address: Mann Terrace, NORTH ADELAIDE  SA  5006
   description: Widening of existing footpath including upgrade of shared . pedestrian/bicycle
-    path within a State Heritage area.
+    path adjacent State Heritage place
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-07'
+- council_reference: S49/7/2019
+  address: 1-9 Railway Ramp, ADELAIDE  SA  5000
+  description: Internal demolition and refit of 4x tenancies within the Adelaide .
+    Railway Station
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-13'
+- council_reference: S49/8/2019
+  address: 261-279 Victoria Square, ADELAIDE  SA  5000
+  description: Pressure cleaning the north, west and east facade of the Adelaide .
+    Supreme Court Complex
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-20'
