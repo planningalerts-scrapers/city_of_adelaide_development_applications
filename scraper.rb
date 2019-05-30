@@ -24,8 +24,7 @@ daTypes.each do |type|
 
   maxApplication = 1
   error = 0
-  cont = true
-  while cont do
+  while error < 10 do
     form = page.form
     form.field_with(:name=>'ctl00$MainBodyContent$mGeneralEnquirySearchControl$mTabControl$ctl04$mFormattedNumberTextBox').value = type + '/' + maxApplication.to_s + '/' + ENV['MORPH_PERIOD'].to_s
     button = form.button_with(:value => "Search")
@@ -52,8 +51,5 @@ daTypes.each do |type|
 
     # increase maxApplication value and scan the next DA
     maxApplication += 1
-    if error == 10
-      cont = false
-    end
   end
 end
