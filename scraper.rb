@@ -25,10 +25,10 @@ daTypes.each do |type|
   maxApplication = 1
   error = 0
   while error < 10 do
-    form = page.form
-    form.field_with(:name=>'ctl00$MainBodyContent$mGeneralEnquirySearchControl$mTabControl$ctl04$mFormattedNumberTextBox').value = type + '/' + maxApplication.to_s + '/' + ENV['MORPH_PERIOD'].to_s
-    button = form.button_with(:value => "Search")
-    list = form.click_button(button)
+    list = EpathwayScraper::Page::Search.search_for_one_application(
+      page,
+      "#{type}/#{maxApplication}/#{ENV['MORPH_PERIOD']}"
+    )
 
     count = 0
     EpathwayScraper::Page::Index.scrape_index_page(list, scraper.base_url, scraper.agent) do |record|
