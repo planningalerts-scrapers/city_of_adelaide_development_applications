@@ -46,7 +46,7 @@ daTypes.each do |type|
         'council_reference' => tr.search('a').inner_text,
         'address'           => address,
         'description'       => tr.search('span')[2].inner_text.gsub("\n", '. ').squeeze(' '),
-        'info_url'          => base_url + tr.search('a')[0]['href'],
+        'info_url'          => scraper.base_url,
         'date_scraped'      => Date.today.to_s,
         'date_received'     => Date.parse(tr.search('span')[0].inner_text).to_s,
       }
