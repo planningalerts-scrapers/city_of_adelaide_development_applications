@@ -8,15 +8,9 @@ scraper = EpathwayScraper::Scraper.new(
   "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd"
 )
 
-cookie_url = "https://epathway.adelaidecitycouncil.com/ePathway/ePathwayProd/Web/default.aspx"
-search_url = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/externalrequestbroker.aspx?Module=EGELAP&Class=DEVT&Type=DEVT"
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
-agent = scraper.agent
-
-# select Planning Application
-page = agent.get cookie_url
-page = agent.get search_url
+page = scraper.pick_type_of_search(:all)
 
 daTypes.each do |type|
   puts "Going to scrape '#{type}' type of applications"
