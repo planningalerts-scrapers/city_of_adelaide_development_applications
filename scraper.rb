@@ -4,12 +4,16 @@ ENV['MORPH_PERIOD'] ||= DateTime.now.year.to_s
 
 puts "Getting data in year '" + ENV['MORPH_PERIOD'].to_s + "', changable via MORPH_PERIOD environment"
 
+scraper = EpathwayScraper::Scraper.new(
+  "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd"
+)
+
 cookie_url = "https://epathway.adelaidecitycouncil.com/ePathway/ePathwayProd/Web/default.aspx"
 search_url = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/externalrequestbroker.aspx?Module=EGELAP&Class=DEVT&Type=DEVT"
 base_url   = "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/web/GeneralEnquiry/"
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
-agent = Mechanize.new
+agent = scraper.agent
 
 # select Planning Application
 page = agent.get cookie_url
@@ -47,9 +51,7 @@ daTypes.each do |type|
         'date_received'     => Date.parse(tr.search('span')[0].inner_text).to_s,
       }
 
-      puts "Saving record " + record['council_reference'] + ", " + record['address']
-#         puts record
-      ScraperWiki.save_sqlite(['council_reference'], record)
+      EpathwayScraper.save(record)
     else
       error += 1
     end
