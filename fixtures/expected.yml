@@ -498,8 +498,8 @@
   date_received: '2019-03-13'
 - council_reference: DA/171/2019
   address: 440 Gilles Street, ADELAIDE  SA  5000
-  description: Construct two storey rear extension, detached garage with studio above
-    and cellar and in-ground swimming pool
+  description: Construct two storey rear extension, detached garage with studio above,
+    cellar and in-ground swimming pool
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-03-14'
@@ -1919,8 +1919,7 @@
   date_received: '2019-05-22'
 - council_reference: DA/377/2019
   address: Level 1  279A Hindley Street, ADELAIDE  SA  5000
-  description: applying to display some banners on the property outside as described
-    in the attached documents
+  description: Install banner signage
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-23'
@@ -1934,7 +1933,6 @@
 - council_reference: DA/379/2019
   address: 30 Centenary Street, NORTH ADELAIDE  SA  5006
   description: Installation of an air conditioning unit to the roof of existing dwelling
-    (retrospective)
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-23'
@@ -1944,6 +1942,12 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-21'
+- council_reference: DA/381/2019
+  address: 251-252 South Terrace, ADELAIDE  SA  5000
+  description: Install temporary hoarding
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-28'
 - council_reference: DA/382/2019
   address: 157 Grote Street, ADELAIDE  SA  5000
   description: Install a LED sign board above front door. The size of the sigh board
@@ -1953,7 +1957,7 @@
   date_received: '2019-05-29'
 - council_reference: DA/383/2019
   address: 113 Kingston Terrace, NORTH ADELAIDE  SA  5006
-  description: New single detached dwelling
+  description: Demolish existing dwelling and construct three level detached dwelling
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-29'
@@ -1963,6 +1967,32 @@
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-28'
+- council_reference: DA/385/2019
+  address: Level 12  101 Grenfell Street, ADELAIDE  SA  5000
+  description: Internal fitout
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-30'
+- council_reference: DA/386/2019
+  address: 127 Sussex Street, NORTH ADELAIDE  SA  5006
+  description: Demolition of existing rear " lean to" and construct carport, storage
+    shed and part single/part two storey rear dwelling addition
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-27'
+- council_reference: DA/387/2019
+  address: 12 Rundle Mall, ADELAIDE  SA  5000
+  description: Retail tenancy fitout (HITEA+MI+TWO PECK) - INTERNAL WORKS.
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-28'
+- council_reference: DA/389/2019
+  address: 350 South Terrace, ADELAIDE  SA  5000
+  description: Internal refurbishment of cafeteria and medical imaging suite and minor
+    external alterations
+  info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
+  date_scraped: '2019-05-15'
+  date_received: '2019-05-31'
 - council_reference: DA/39/2019
   address: 43-45 Rundle Mall, ADELAIDE  SA  5000
   description: Alterations to shopfront and installation of additional signage
