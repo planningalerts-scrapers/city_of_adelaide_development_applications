@@ -182,11 +182,12 @@
   date_received: '2019-02-26'
 - council_reference: DA/121/2019
   address: 87 Archer Street, NORTH ADELAIDE  SA  5006
-  description: Supply & Fit 1x Traditionally Constructed 2x Pane (Vertically), Lower
-    Window Sash,. Western Red Cedar Construction, 6.38mm Laminated Safety Glass,.
-    To match Existing. $830.00. Treat & Repair Bottom Joints in Upper Sash & Replace
-    Damaged Glazing Putty. $110.00. Treat & Repair Dry Rot Damage to Sill & Lower
-    Window Frame. $270
+  description: |-
+    Supply & Fit 1x Traditionally Constructed 2x Pane (Vertically), Lower Window Sash,
+    Western Red Cedar Construction, 6.38mm Laminated Safety Glass,
+    To match Existing. $830.00
+    Treat & Repair Bottom Joints in Upper Sash & Replace Damaged Glazing Putty. $110.00
+    Treat & Repair Dry Rot Damage to Sill & Lower Window Frame. $270
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-21'
@@ -368,7 +369,7 @@
 - council_reference: DA/145/2019
   address: 51-57 Hutt Street, ADELAIDE  SA  5000
   description: Undertake works and use vacant land at Development Site, 51-57 Hutt
-    Street, ADELAIDE SA 5000 as ancillary car parking to the Calvary Wakefield Hospital
+    Street, ADELAIDE  SA  5000 as ancillary car parking to the Calvary Wakefield Hospital
     located at 282 – 300 Wakefield Street.
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -1567,7 +1568,9 @@
 - council_reference: DA/316/2019
   address: Morphett Street, ADELAIDE  SA  5000
   description: 'Attach banner to side of bridge for temporary period (22 July 2019
-    to 19 August 2019). '
+    to 19 August 2019)
+
+'
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-02'
@@ -1581,15 +1584,16 @@
   date_received: '2019-05-02'
 - council_reference: DA/317/2019
   address: 246-248 Rundle Street, ADELAIDE  SA  5000
-  description: Existing street - uses plus 2 week art installation. 4m truss with
-    Umbrella Winter Sounds art installation - Umbrellas on wire
+  description: |-
+    Existing street - uses plus 2 week art installation
+    4m truss with Umbrella Winter Sounds art installation - Umbrellas on wire
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-07'
 - council_reference: DA/318/2019
   address: 23-31 Playhouse Lane, ADELAIDE  SA  5000
-  description: Temporary fence at the rear of the venue for a smoking and toilet area
-    (Friday 24 May 2019- Monday 27 May 2019).
+  description: Temporary fence at the rear of the venue for a smoking and toilet area  (Friday
+    24  May 2019- Monday 27  May 2019).
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-08'
@@ -1841,7 +1845,9 @@
 - council_reference: DA/350/2019
   address: 64 Hindley Street, ADELAIDE  SA  5000
   description: 'Undertake alterations to existing tenancy for bubble tea shop including
-    signage. '
+    signage
+
+'
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-15'
@@ -2152,7 +2158,7 @@
   date_received: '2019-04-04'
 - council_reference: DA/43/2019
   address: 76 Regent Street S, ADELAIDE  SA  5000
-  description: Replace existing deck, roof and balustrade of balcony.
+  description: Replace existing  deck, roof and balustrade of balcony.
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-17'
@@ -2216,11 +2222,11 @@
   date_received: '2019-01-25'
 - council_reference: DA/53/2019
   address: North Terrace, ADELAIDE  SA  5000
-  description: '1. Remove section of State Heritage listed fence along Victoria Drive,
-    in front of Union House; . 2. Remove and relocate State Heritage listed Mitchell
-    Gates from Victoria Drive (adjacent to Union House) to original location on Frome
-    Road (symmetrically placed on axis of Barr Smith Library Maths Lawns); and. 3.
-    Remove sections of fence at the corner of Frome Road and Victoria Drive.. '
+  description: "1. Remove section of State Heritage listed fence along Victoria Drive,
+    in front of Union House; \n2. Remove and relocate State Heritage listed Mitchell
+    Gates from Victoria Drive (adjacent to Union House)  to original location on Frome
+    Road (symmetrically placed on axis of Barr Smith Library Maths Lawns); and\n3.
+    Remove sections of fence at the corner of Frome Road and Victoria Drive.\n"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-25'
@@ -2329,7 +2335,7 @@
 - council_reference: DA/614/2007/C
   address: 102-104 Wakefield Street, ADELAIDE  SA  5000
   description: Vary previous authorisation demolition of existing buildings and construction
-    of a 10 storey building consisting of a multi level car park, offices and ground
+    of a 10 storey  building consisting of a multi level car park, offices and ground
     floor retail - VARIATION - Internal floor layout and additional balconies
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -2375,7 +2381,9 @@
   date_received: '2019-02-01'
 - council_reference: DA/68/2019
   address: 141-159 Ward Street, NORTH ADELAIDE  SA  5006
-  description: Minor Variation to DA/779/2018/A. Alterations to foot path paving
+  description: |-
+    Minor Variation to DA/779/2018/A
+    Alterations to foot path paving
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-04'
@@ -2520,7 +2528,7 @@
   date_received: '2019-02-07'
 - council_reference: DA/83/2019
   address: 68 Mills Terrace, NORTH ADELAIDE  SA  5006
-  description: Repointing, damp course to northern and western external walls, painting
+  description: Repointing, damp course to northern and western external walls,  painting
     and repair or replace existing awning
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -2540,9 +2548,14 @@
   date_received: '2019-02-09'
 - council_reference: DA/86/2019
   address: 261 Wright Street, ADELAIDE  SA  5000
-  description: 2.350 linear metres of 2000mm high good neighbour fence. . 1 x colorbond
-    vehicle access gate 4000mm (W) x 2000mm (H). . Woodland grey in colour. . Fence
-    is at the back of the property not visible from the front of the house
+  description: |-
+    2.350 linear metres of 2000mm high good neighbour fence
+
+    1 x colorbond vehicle access gate 4000mm (W) x 2000mm (H)
+
+    Woodland grey in colour
+
+    Fence is at the back of the property not visible from the front of the house
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-09'
@@ -2660,7 +2673,7 @@
   date_received: '2019-04-04'
 - council_reference: DA/97/2019
   address: Ground 54-56 Sturt Street, ADELAIDE  SA  5000
-  description: Change of use to restaurant, internal fit-out and signage
+  description: Change of use to restaurant, internal fit-out  and signage
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-14'
@@ -2799,15 +2812,15 @@
   date_received: '2019-02-20'
 - council_reference: S10/11/2019
   address: North Terrace, ADELAIDE  SA  5000
-  description: Internal demolition works within the Bice Building to . allow for adaptive
-    refurbishment, including removal of . all later external additions, internal changes
-    and . additions, work to balconies and removing all plant and . services
+  description: "Internal demolition works within the Bice Building to \nallow for
+    adaptive refurbishment, including removal of \nall later external additions, internal
+    changes and \nadditions, work to balconies and removing all plant and \nservices"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-03-01'
 - council_reference: S10/12/2019
   address: North Terrace, ADELAIDE  SA  5000
-  description: Demolition of eastern portion (non-heritage fabric) of . Bice Building
+  description: "Demolition of eastern portion (non-heritage fabric) of \nBice Building"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-25'
@@ -2865,8 +2878,8 @@
   address: 248-253 East Terrace, ADELAIDE  SA  5000
   description: Vary previous authorisation demolition of existing building and construction
     of an eight storey residential building with ground and basement car parking and
-    removal of one significant tree - VARIATION - alterations to mezzanine, roof plant
-    and ground terrace - STAGE 6 - SUPERSTRUCTURE.
+    removal of one significant tree - VARIATION -  alterations to mezzanine, roof
+    plant and ground terrace - STAGE 6 - SUPERSTRUCTURE.
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-14'
@@ -2882,7 +2895,7 @@
 - council_reference: S10/20/2019
   address: Port Road, ADELAIDE  SA  5000
   description: Removal of 6 Regulated Trees (3 Significant & 3 Regulated) & major
-    pruning of 15 Regulated Trees (2 Significant & 13 Regulated) to support Gawler
+    pruning of 15 Regulated  Trees (2 Significant & 13 Regulated) to support Gawler
     Rail Electrification Project
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -2940,11 +2953,11 @@
   date_received: '2019-05-20'
 - council_reference: S10/27/2015/D
   address: 111-119 Angas Street, ADELAIDE  SA  5000
-  description: Vary previous authorisation to demolish all existing structures and:.
-    a) Construct a 13 storey hospital with allied health tenancies, retail and 3 level
-    basement. b) Construct an 8 storey multi level car park with retail and office
-    tenancies. c) Install advertisements and associated site works - VARIATION - Additional
-    Signage to Calvary Hospital Development
+  description: |-
+    Vary previous authorisation to demolish all existing structures and:
+    a) Construct a 13 storey hospital with allied health tenancies, retail and 3 level basement
+    b) Construct an 8 storey multi level car park with retail and office tenancies
+    c) Install advertisements and associated site works - VARIATION - Additional Signage to Calvary Hospital Development
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-04-04'
@@ -3016,7 +3029,7 @@
     two levels of enclosed plans); the adaptive reuse of the GPO building for a mix
     of retail and ancillary hotel uses; demolition of the five storey offices to the
     north of the GPO building; and an infill building over a porte-cochere - VARIATION
-    - design details for porte-cochere, internal works to GPO building and external
+    -  design details for porte-cochere, internal works to GPO building and external
     lighting of GPO building facades
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
@@ -3090,8 +3103,8 @@
   date_received: '2019-04-04'
 - council_reference: S10/7/2019
   address: North Terrace, ADELAIDE  SA  5000
-  description: Demolition of southern lift cart, rooftop machine . room and portion
-    of existing slab in the McEwin Building
+  description: "Demolition of southern lift cart, rooftop machine \nroom and portion
+    of existing slab in the McEwin Building"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-01-15'
@@ -3106,8 +3119,8 @@
   date_received: '2019-02-06'
 - council_reference: S10/9/2019
   address: Frome Road, ADELAIDE  SA  5000
-  description: Temporary Signage (up to 2 years) to be erected at the . State Heritage
-    Listed Margaret Graham Building.
+  description: "Temporary Signage (up to 2 years) to be erected at the \nState Heritage
+    Listed Margaret Graham Building."
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-02-07'
@@ -3133,8 +3146,8 @@
   date_received: '2019-01-22'
 - council_reference: S49/4/2019
   address: 261-279 Victoria Square, ADELAIDE  SA  5000
-  description: Recarpeting of existing carpeted areas of Building 1 and removal .
-    of existing vinyl, and installation of new, to kitchenette areas
+  description: "Recarpeting of existing carpeted areas of Building 1 and removal \nof
+    existing vinyl, and installation of new, to kitchenette areas"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-03-19'
@@ -3147,22 +3160,22 @@
   date_received: '2019-05-07'
 - council_reference: S49/6/2019
   address: Mann Terrace, NORTH ADELAIDE  SA  5006
-  description: Widening of existing footpath including upgrade of shared . pedestrian/bicycle
-    path adjacent State Heritage place
+  description: "Widening of existing footpath including upgrade of shared \npedestrian/bicycle
+    path adjacent State Heritage place"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-07'
 - council_reference: S49/7/2019
   address: 1-9 Railway Ramp, ADELAIDE  SA  5000
-  description: Internal demolition and refit of 4x tenancies within the Adelaide .
-    Railway Station
+  description: "Internal demolition and refit of 4x tenancies within the Adelaide
+    \nRailway Station"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-13'
 - council_reference: S49/8/2019
   address: 261-279 Victoria Square, ADELAIDE  SA  5000
-  description: Pressure cleaning the north, west and east facade of the Adelaide .
-    Supreme Court Complex
+  description: "Pressure cleaning the north, west and east facade of the Adelaide
+    \nSupreme Court Complex"
   info_url: https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd/Web/GeneralEnquiry/EnquiryLists.aspx?ModuleCode=LAP
   date_scraped: '2019-05-15'
   date_received: '2019-05-20'
