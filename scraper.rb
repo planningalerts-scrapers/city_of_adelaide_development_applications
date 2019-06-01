@@ -10,7 +10,9 @@ scraper = EpathwayScraper::Scraper.new(
 
 daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
 
-page = scraper.pick_type_of_search(:all)
+page = scraper.agent.get(scraper.base_url)
+page = EpathwayScraper::Page::ListSelect.follow_javascript_redirect(page, scraper.agent)
+page = EpathwayScraper::Page::ListSelect.pick(page, :all)
 
 daTypes.each do |type|
   puts "Going to scrape '#{type}' type of applications"
