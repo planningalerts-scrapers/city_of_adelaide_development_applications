@@ -8,43 +8,34 @@ scraper = EpathwayScraper::Scraper.new(
   "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd"
 )
 
-daTypes = ['DA', 'S49', 'S10', 'HIS', 'LD']
-
 page = scraper.agent.get(scraper.base_url)
 page = EpathwayScraper::Page::ListSelect.follow_javascript_redirect(page, scraper.agent)
 page = EpathwayScraper::Page::ListSelect.pick(page, :all)
 
-daTypes.each do |type|
-  puts "Going to scrape '#{type}' type of applications"
+page = EpathwayScraper::Page::Search.click_date_search_tab(page, scraper.agent)
 
-  maxApplication = 1
-  error = 0
-  while error < 10 do
-    list = EpathwayScraper::Page::Search.search_for_one_application(
-      page,
-      "#{type}/#{maxApplication}/#{ENV['MORPH_PERIOD']}"
-    )
+from = page.form.field_with(name: /FromDatePicker/)
+to = page.form.field_with(name: /ToDatePicker/)
 
-    count = 0
-    EpathwayScraper::Page::Index.scrape_index_page(list, scraper.base_url, scraper.agent) do |record|
-      count += 1
-      # Do some last-minute tweaking of the address and description
-      # fine tuning 'address' field, remove 'building name'
-      if record["address"].split(',').size >= 3
-        record["address"] = record["address"].split(',', 2)[1].strip
-      end
-      record["description"]= record["description"].gsub("\n", '. ').squeeze(' ')
+from_date = Date.new(ENV["MORPH_PERIOD"].to_i, 1, 1)
+from.value = from_date.strftime("%d/%m/%Y")
 
-      EpathwayScraper.save(record)
-    end
+to_date = Date.new(ENV["MORPH_PERIOD"].to_i + 1, 1, 1).prev_day
+# By default the to date is set to today's date. We can't use a later date
+# otherwise the search doesn't work
+if to_date < Date.strptime(to.value, "%d/%m/%Y")
+  to.value = to_date.strftime("%d/%m/%Y")
+end
 
-    if count == 0
-      error += 1
-    else
-      error  = 0
-    end
+EpathwayScraper::Page::Search.click_search(page)
 
-    # increase maxApplication value and scan the next DA
-    maxApplication += 1
+EpathwayScraper::Page::Index.scrape_all_index_pages(nil, scraper.base_url, scraper.agent) do |record|
+  # Do some last-minute tweaking of the address and description
+  # fine tuning 'address' field, remove 'building name'
+  if record["address"].split(',').size >= 3
+    record["address"] = record["address"].split(',', 2)[1].strip
   end
+  record["description"]= record["description"].gsub("\n", '. ').squeeze(' ')
+
+  EpathwayScraper.save(record)
 end
