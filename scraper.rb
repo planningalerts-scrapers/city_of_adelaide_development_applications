@@ -1,8 +1,9 @@
 require "epathway_scraper"
 
 ENV['MORPH_PERIOD'] ||= DateTime.now.year.to_s
+year = ENV["MORPH_PERIOD"].to_i
 
-puts "Getting data in year '" + ENV['MORPH_PERIOD'].to_s + "', changable via MORPH_PERIOD environment"
+puts "Getting data in year '#{year}', changable via MORPH_PERIOD environment"
 
 scraper = EpathwayScraper::Scraper.new(
   "https://epathway.adelaidecitycouncil.com/epathway/ePathwayProd"
@@ -16,8 +17,8 @@ page = EpathwayScraper::Page::Search.click_date_search_tab(page, scraper.agent)
 
 EpathwayScraper::Page::DateSearch.pick_date_range(
   page,
-  Date.new(ENV["MORPH_PERIOD"].to_i, 1, 1),
-  Date.new(ENV["MORPH_PERIOD"].to_i + 1, 1, 1).prev_day
+  Date.new(year, 1, 1),
+  Date.new(year + 1, 1, 1).prev_day
 )
 
 EpathwayScraper::Page::Index.scrape_all_index_pages(nil, scraper.base_url, scraper.agent) do |record|
